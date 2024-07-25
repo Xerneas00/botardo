@@ -18,7 +18,7 @@ song_queue = deque()
 
 class CustomHelpCommand(commands.HelpCommand):
     def get_ending_note(self):
-        return "\n\nType !help <command> for more info on a command.\nType !help <category> for more info on a category.\n ©Xerneas"
+        return "\n\nType !help <command> for more info on a command.\nType !help <category> for more info on a category.\n copyright:--> Xerneas"
 
     async def send_bot_help(self, mapping):
         destination = self.get_destination()
