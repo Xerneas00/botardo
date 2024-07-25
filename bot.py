@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import discord
 from discord.ext import commands
 import yt_dlp as youtube_dl
@@ -18,7 +20,7 @@ song_queue = deque()
 
 class CustomHelpCommand(commands.HelpCommand):
     def get_ending_note(self):
-        return "\n\nType !help <command> for more info on a command.\nType !help <category> for more info on a category.\n copyright:--> Xerneas"
+        return "\n\nType !help <command> for more info on a command.\nType !help <category> for more info on a category.\n Copyright o Copyleft (no sé):--> Xerneas"
 
     async def send_bot_help(self, mapping):
         destination = self.get_destination()
